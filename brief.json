@@ -1,0 +1,16 @@
+{
+  "description": "Http proxy",
+  "name": "http-proxy",
+  "path": "dist",
+  "version": "0.0.1",
+  "author": "Bruno Machado",
+  "dependencies": {
+    "jars": [
+      "org.mitre.dsmiley.httpproxy:smiley-http-proxy-servlet:1.10",
+      "org.apache.httpcomponents:httpclient:4.5.2",
+      "org.apache.httpcomponents:httpcore:4.4.4",
+      "commons-logging:commons-logging:1.2",
+      "commons-codec:commons-codec:1.9"
+    ]
+  }
+}

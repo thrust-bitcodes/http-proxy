@@ -1,0 +1,9 @@
+{
+  "description": "Proxy tests",
+  "name": "http-proxy-test",
+  "author": "Bruno Machado",
+  "dependencies": [
+    "http",
+    "http-proxy"
+  ]
+}
