@@ -3,7 +3,7 @@
   "name": "http-proxy-test",
   "author": "Bruno Machado",
   "dependencies": [
-    "http",
-    "http-proxy"
+    "majesty",
+    "http-client"
   ]
 }

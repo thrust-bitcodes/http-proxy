@@ -2,7 +2,7 @@ language: bash
 services:
   - docker
 
-script: docker run --rm -v $(pwd):/app -w /app/test thrustjs/thrust-docker:0.5.3 /bin/sh -c "thrust install && thrust test.js"
+script: docker run --rm -v $(pwd):/app -w /app/test thrustjs/thrust-docker:0.5.3 /bin/sh -c "chmod +x test.sh && test.sh"
 
 deploy:
   provider: releases

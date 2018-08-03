@@ -49,3 +49,6 @@ Acesse também os outros *bitcodes* utilizados no exemplo para melhor entendimen
 
 - [thrust-bitcodes/http](https://github.com/thrust-bitcodes/http)
 - [thrust-bitcodes/router](https://github.com/thrust-bitcodes/router)
+
+
+Esta biblioteca foi transcrita a partir de [HTTP-Proxy-Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)

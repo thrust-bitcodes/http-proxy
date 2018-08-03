@@ -1,6 +1,6 @@
-const http = require('http')
+const server = require('http')
 const router = require('router')
-const httpProxy = require('http-proxy')
+const httpProxy = require('../../dist/index')
 
 server.createServer(8778, router, {
     servlets: {
